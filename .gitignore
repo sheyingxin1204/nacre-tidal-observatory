@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# WorkBuddy project memory and local state
+.workbuddy/
+
+# Local test artifacts
+preview-blue.png
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Logs and generated source maps
+*.log
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories
+.idea/
+.vscode/

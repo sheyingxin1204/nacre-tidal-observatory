@@ -1,0 +1,18 @@
+{
+  "name": "nacre-tidal-observatory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NACRE — an interactive real-time tidal observatory",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --minify --format=iife --target=es2020 --outfile=bundle.js",
+    "dev": "esbuild src/main.js --bundle --sourcemap --format=iife --target=es2020 --outfile=bundle.js --watch",
+    "serve": "node server.cjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10",
+    "playwright-core": "^1.65.0"
+  }
+}
